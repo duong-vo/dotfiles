@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/duong-vo/other/chessgame_webapp'
+let g:netrw_dirhist_0='/home/duong-vo/other/chessgame_webapp/frontend/src'
+let g:netrw_dirhist_9='/home/duong-vo/other/chessgame_webapp/frontend'
+let g:netrw_dirhist_8='/home/duong-vo/other/chessgame_webapp'
+let g:netrw_dirhist_7='/home/duong-vo/other/chessgame_webapp/frontend/src/components'
+let g:netrw_dirhist_6='/home/duong-vo/other/chessgame_webapp/frontend/src'
+let g:netrw_dirhist_5='/home/duong-vo/other/chessgame_webapp/frontend'
+let g:netrw_dirhist_4='/home/duong-vo/other/chessgame_webapp'
+let g:netrw_dirhist_3='/home/duong-vo/other/chessgame_webapp/frontend/src/components'
+let g:netrw_dirhist_2='/home/duong-vo/other/chessgame_webapp/frontend/src'
