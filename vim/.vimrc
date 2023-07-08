@@ -25,3 +25,11 @@ call plug#end()
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[6 q"
+
+nnoremap <C-P> :Files<CR>
+nnoremap <C-S> <C-W>
+
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
+set laststatus=2
