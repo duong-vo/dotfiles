@@ -30,6 +30,11 @@ let &t_EI = "\e[6 q"
 
 nnoremap <C-P> :Files<CR>
 nnoremap <C-S> <C-W>
+" Remap split navigation to Control+h/j/k/l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 function! ClearSearchPattern()
     let @/ = ''
