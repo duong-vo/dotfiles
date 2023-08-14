@@ -5,11 +5,13 @@ set shiftwidth=2
 set softtabstop=2
 set hlsearch
 set incsearch
+set clipboard=unnamedplus
 
 set list
 set listchars+=trail:·
 set listchars-=eol:$
 highlight SpecialKey ctermfg=darkgray guifg=darkgray
+
 
 filetype plugin on
 syntax on
