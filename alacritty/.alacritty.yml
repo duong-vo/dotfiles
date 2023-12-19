@@ -1,0 +1,49 @@
+# alacritty.yml
+
+# Colors
+colors:
+  primary:
+    background: '0x0f0f0f'  # Dark gradient background color
+    foreground: '0xe1e1e1'  # Text color
+
+  # Xcode color scheme
+  normal:
+    black: '0x2c2c2d'
+    red: '0xd14c32'
+    green: '0x64a82e'
+    yellow: '0xeac55e'
+    blue: '0x3176c1'
+    magenta: '0x9a5cb3'
+    cyan: '0x39afff'
+    white: '0xe6e6e6'
+
+  bright:
+    black: '0x626264'
+    red: '0xff4500'
+    green: '0x32cd32'
+    yellow: '0xffd700'
+    blue: '0x5f9ea0'
+    magenta: '0xda70d6'
+    cyan: '0xadd8e6'
+    white: '0xffffff'
+
+# Size and padding
+size:
+  dimensions:
+    columns: 80
+    lines: 24
+
+padding:
+  x: 8
+  y: 8
+
+# Window options
+window:
+  dynamic_title: true
+  decorations: full
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+  blink_interval:   750
